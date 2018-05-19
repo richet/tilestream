@@ -1,4 +1,4 @@
-var tilelive = require('tilelive');
+var tilelive = require('@mapbox/tilelive');
 var url = require('url');
 
 models.Tileset.syncread = function(data, options) {

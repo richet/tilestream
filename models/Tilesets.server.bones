@@ -1,4 +1,4 @@
-var tilelive = require('tilelive');
+var tilelive = require('@mapbox/tilelive');
 
 // Server-side sync method for Tileset model.
 models.Tilesets.prototype.sync = function(method, model, success, error) {
